@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+html body {
+    margin: 0;
+    padding: 0;
+    background-color: #F3F3F3;
+}  
+
+.navBar {
+    position: sticky;
+    background-color: #222222;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding: 60px 0px;
+}
+
+.logoPizza {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.textoLogo {
+    margin-left: 10px;
+}
+
+nav img {
+    width: 90px;
+    height: 80px;
+}
+
+.pizzaLogo {
+    color: #39B24A;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.andLogo {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.frontLogo {
+    color: #FC200C;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul li {
+    margin-right: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxEnvioGreatis {
+    position: relative;
+}
+
+.imagenDelivery {
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-left: 2%;
+    position: absolute;
+    width: 47%;
+}
+
+.deliveryImg {
+    width: 100%;
+}
+
+.textoDelivery {
+    position: relative;
+    top: 14%;
+    left: 10%;
+}
+
+.comprando {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.envioGratis {
+    color: #FC200C;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.podio {
+    background-color: white;
+    width: 47%;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-left: 16%;
+    margin-right: 2%;
+    min-height: 33.5vw;
+}
+
+.podioDePizzas {
+    color: #FC200C;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.pizzasTopCinco {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.8vw;
+    color: #202020;
+    padding-top: 6%;
+    display: flex;
+    justify-content: left;
+    margin-left: 16%;
+}
+
+.listaPizzas {
+    margin-left: 8%;
+    margin-right: 20%;
+    padding-bottom: 2vw;
+}
+
+.topPizzas {
+    display: flex;
+    justify-content: flex-start;
+}
+
+div ol li {
+    margin-right: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: #202020;
+}
+
+.footer {
+    background-color: #222222;
+    bottom: 0;
+    margin-top: 6vw;
+    z-index: 1;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerEnlaces {
+    padding: 2% 2%;
+}
+
+footer div ul li {
+    color: white;
+    margin: 16% 2%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer ul a {
+    text-decoration: none;
+}
+
+.logoPizzaFooter {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
